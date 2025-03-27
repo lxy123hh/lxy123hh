@@ -1,16 +1,48 @@
-## Hi there 👋
+# 个人 GitHub 主页
 
-<!--
-**lxy123hh/lxy123hh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+欢迎访问我的 GitHub 页面！这里是我学习和实践全栈开发、人工智能、Java 与 Python 后端开发以及运维的地方。在这个页面，你将看到我在这些领域的项目和代码。
 
-Here are some ideas to get you started:
+## 关于我
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+你好，我是 [lxy]，目前正在深入学习以下技术：
+
+- **前端开发**：我正在掌握 HTML、CSS、JavaScript 和前端框架（如 React 和 Vue）来构建动态和响应式的网页应用。
+- **Java 后端开发**：学习如何使用 Java 构建健壮的后端系统，了解 Spring 框架、RESTful API、数据库设计等内容。
+- **Python 后端开发**：我正在通过 Python 编写后端应用，深入学习 Django、Flask 等框架，探索如何构建高效的服务器端逻辑。
+- **全栈开发**：通过结合前端与后端技术，学习如何实现完整的应用架构和功能实现。
+- **人工智能**：学习使用机器学习和深度学习框架（PyTorch）进行智能应用的开发。
+- **运维**：探索 DevOps 和系统运维，使用工具如 Docker、Kubernetes 等，了解 CI/CD 流程和云计算服务。
+
+## 项目
+
+### 1. [项目名称](项目链接)
+简短描述项目功能和目标。
+
+### 2. [项目名称](项目链接)
+简短描述项目功能和目标。
+
+### 3. [项目名称](项目链接)
+简短描述项目功能和目标。
+
+## 学习计划
+
+- 深入掌握 **Java** 后端开发，完成更多复杂的应用。
+- 精通 **Python** 后端框架，提升开发效率。
+- 持续学习前端框架，打造更加现代化的 UI/UX 设计。
+- 学习 **人工智能** 的应用开发，探索机器学习算法和深度学习模型。
+- 掌握 **云计算** 和 **DevOps** 技术，理解系统运维的流程与工具。
+
+## 技术栈
+
+- **前端**：HTML, CSS, JavaScript, React, Vue
+- **后端**：Java, Spring Boot, Python, Django, Flask
+- **人工智能**：TensorFlow, PyTorch
+- **运维工具**：Docker, Kubernetes, Jenkins, GitLab CI/CD
+
+## 联系我
+
+如果你对我的项目感兴趣，或者想交流技术，可以通过以下方式联系我：
+
+- [邮箱](1677837750@qq.com)
+
+感谢访问我的 GitHub 页面！我会持续更新和分享我的学习进展和项目成果。
