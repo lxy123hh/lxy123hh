@@ -35,7 +35,7 @@
 - **前端**：HTML, CSS, JavaScript, React, Vue
 - **后端**：Java, Spring Boot, Python, Django, Flask，MySql
 - **运维工具**：Docker, Kubernetes, GitLab CI/CD
-- **人工智能**： PyTorch，深度学习，机器学习
+- **人工智能**： PyTorch，深度学习，机器学习，自然语言处理
 
 ## 联系我
 
