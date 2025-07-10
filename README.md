@@ -24,7 +24,7 @@
 * **监控与报警**：集成 Prometheus 与Grafana监控系统，实时监控服务器状态，使用 AlertManager 和 SMTP 进行异常报警，保障系统稳定运行。
 
 
-### 2. 个人笔记:https://lxy123hh.vercel.app（需要梯子）
+### 2. 个人笔记:https://lxy123hh.vercel.app （需要梯子）
 * **技术栈**：**HTML**, **CSS**, **JavaScript**, **VitePress**, **Vue.js**, **Vercel**
 
 ### 3. [项目名称](项目链接)
