@@ -34,7 +34,7 @@
 
 ## 技术栈
 
-- **前端**：HTML, CSS, JavaScript,  Vue
+- **前端**：HTML, CSS, JavaScript, Vue3, Vite
 - **后端**：Java, Spring Boot, Python, Django, Flask，MySql
 - **运维工具**：Docker, Kubernetes, GitLab CI/CD
 - **人工智能**： PyTorch，深度学习，机器学习，自然语言处理，图像识别，数据挖掘，数据分析
