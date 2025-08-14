@@ -11,7 +11,7 @@
 - **Python 后端开发**：我正在通过 Python 编写后端应用，深入学习 Django、Flask 等框架，探索如何构建高效的服务器端逻辑。
 - **全栈开发**：通过结合前端与后端技术，学习如何实现完整的应用架构和功能实现。
 - **运维**：探索 DevOps 和系统运维，使用工具如 Docker、Kubernetes 等，了解 CI/CD 流程和云计算服务。
-- **人工智能**：学习使用机器学习和深度学习框架（PyTorch）进行智能应用的开发。
+- **人工智能**：学习使用机器学习和深度学习框架（PyTorch）进行人工智能方面的应用。
 
 ## 项目
 
@@ -37,7 +37,7 @@
 - **前端**：HTML, CSS, JavaScript, Vue3, Vite
 - **后端**：Java, Spring Boot, Python, Django, Flask，MySql
 - **运维工具**：Docker, Kubernetes, GitLab CI/CD
-- **人工智能**： PyTorch，深度学习，机器学习，自然语言处理，图像识别，数据挖掘，数据分析
+- **人工智能**： 深度学习（pytorch），机器学习，自然语言处理，图像识别，数据挖掘，数据分析
 
 ## 联系我
 
