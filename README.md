@@ -29,16 +29,17 @@
 * **项目描述**：本项目用来记录静态资源网页。
 
 ### 3. AgentFlow：企业知识库与客服工单工作流 Agent 平台
-**技术栈**：**React**, **TypeScript**, **FastAPI**, **LangGraph**, **LangChain**, **LangSmith**, **PostgreSQL**, **pgvector**, **Redis**, **Docker**
+**技术栈**：**React**, **TypeScript**, **FastAPI**, **LangGraph**, **LangChain**, **LangSmith**, **PostgreSQL**, **pgvector**, **Docker**
 
-* 设计并实现面向企业知识检索与客服工单处理场景的 AI Agent 平台，支持文档上传、知识库问答、订单/物流工具调用、客服处理建议生成与人工审批。
-* 基于 LangGraph 构建多步骤 Agent 工作流，将用户请求路由至知识库问答、客服售后处理、普通问答等不同分支，并通过状态管理串联检索、工具调用、业务判断和最终回答生成。
-* 构建 RAG 知识库模块，支持 PDF / Markdown / TXT 文档解析、文本切分、Embedding 向量化、pgvector 相似度检索和带引用来源的回答生成。
-* 使用 FastAPI 封装后端服务，设计文档、聊天、工单、审批和 Agent 执行记录等 RESTful API，并使用 PostgreSQL 存储业务数据和向量数据。
-* 实现客服工单工作流，模拟订单查询、物流查询、工单创建等工具调用，并对退款等高风险操作生成 pending approval，避免 Agent 直接执行敏感动作。
-* 集成 LangSmith 对 LLM 调用、RAG 检索、工具调用、Agent 节点执行、token 消耗和延迟进行 trace，提升 Agent 调试、评估和问题定位能力。
-* 使用 React + TypeScript 构建前端管理界面，实现文档上传、聊天问答、引用展示、工具调用记录、工单列表和人工审批操作。
-* 使用 Docker Compose 编排 PostgreSQL、Redis、后端和前端服务，并编写 README、架构图、Agent 工作流图和本地启动文档，提升项目可复现性。
+* 设计并实现面向企业知识检索与客服售后场景的 AI Agent 本地 MVP，支持文档上传、知识库问答、订单/物流查询、客服处理建议生成、工单管理与人工审批。
+* 基于 LangGraph 构建多分支 Agent 工作流，将用户请求路由至知识库问答、客服售后处理和普通问答分支，并通过状态管理串联检索、工具调用、业务规则判断和最终回答生成。
+* 构建 RAG 知识库模块，支持 PDF / Markdown / TXT 文档解析、文本切分、Embedding 向量化、pgvector 相似度检索，并在回答中返回引用来源和片段信息。
+* 使用 FastAPI 封装后端服务，设计文档、聊天、工单、审批和 Agent 执行记录等 RESTful API，基于 PostgreSQL 存储业务数据、会话记录、审批记录、工具调用日志和向量数据。
+* 实现客服售后工作流，基于 mock 订单、物流和工单数据模拟业务工具调用，并对高金额退款、已签收退款等高风险场景生成pending approval，避免 Agent 直接执行敏感动作。
+* 集成 AgentRun 和 ToolCallLog 记录 Agent 执行轨迹，支持查看意图识别结果、工具调用输入输出、审批状态、RAG 引用和最终回答，便于调试和问题定位。
+* 接入 LangSmith 对 LangGraph 执行链路进行可选 trace，辅助观察 Agent 节点执行、工具调用过程和工作流状态流转。
+* 使用 React + TypeScript 构建前端管理界面，实现文档上传、分页、删除、chunks 查看、聊天问答、引用展示、工具调用记录、工单筛选、审批详情和人工审批操作。
+* 使用 Docker Compose 编排 PostgreSQL、后端和前端服务，并编写 README、架构说明、Agent 工作流图和本地启动文档，提升项目可复现性。
 
 
 ## 技术栈
