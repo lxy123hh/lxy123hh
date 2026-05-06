@@ -28,7 +28,7 @@
 * **技术栈**：**HTML**, **CSS**, **JavaScript**, **VitePress**, **Vue.js**, **Vercel**
 * **项目描述**：本项目用来记录静态资源网页。
 
-### 3. [AgentFlow：企业知识库与客服工单工作流 Agent 平台](项目链接)
+### 3. AgentFlow：企业知识库与客服工单工作流 Agent 平台
 简短描述项目功能和目标。
 **技术栈**：React, TypeScript, FastAPI, LangGraph, LangChain, LangSmith, PostgreSQL, pgvector, Redis, Docker
 
