@@ -29,8 +29,7 @@
 * **项目描述**：本项目用来记录静态资源网页。
 
 ### 3. AgentFlow：企业知识库与客服工单工作流 Agent 平台
-简短描述项目功能和目标。
-**技术栈**：React, TypeScript, FastAPI, LangGraph, LangChain, LangSmith, PostgreSQL, pgvector, Redis, Docker
+**技术栈**：**React**, **TypeScript**, **FastAPI**, **LangGraph**, **LangChain**, **LangSmith**, **PostgreSQL**, **pgvector**, **Redis**, **Docker**
 
 * 设计并实现面向企业知识检索与客服工单处理场景的 AI Agent 平台，支持文档上传、知识库问答、订单/物流工具调用、客服处理建议生成与人工审批。
 * 基于 LangGraph 构建多步骤 Agent 工作流，将用户请求路由至知识库问答、客服售后处理、普通问答等不同分支，并通过状态管理串联检索、工具调用、业务判断和最终回答生成。
