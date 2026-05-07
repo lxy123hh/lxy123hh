@@ -32,7 +32,7 @@
 **技术栈**：**React**, **TypeScript**, **FastAPI**, **LangGraph**, **LangChain**, **LangSmith**, **PostgreSQL**, **pgvector**, **Docker**
 
 * 设计并实现面向企业知识检索与客服售后场景的 AI Agent 本地 MVP，支持文档上传、知识库问答、订单/物流查询、客服处理建议生成、工单管理与人工审批。
-* 基于 LangGraph 构建多分支 Agent 工作流，将用户请求路由至知识库问答、客服售后处理和普通问答分支，并通过状态管理串联检索、工具调用、业务规则判断和最终回答生成。
+* 基于 LangGraph 构建多分支 Agent 工作流，将用户请求路由至知识库问答、客服售后处理、缺订单号和普通问答分支，并通过状态管理串联检索、工具调用、业务规则判断和最终回答生成。
 * 构建 RAG 知识库模块，支持 PDF / Markdown / TXT 文档解析、文本切分、Embedding 向量化、pgvector 相似度检索，并在回答中返回引用来源和片段信息。
 * 使用 FastAPI 封装后端服务，设计文档、聊天、工单、审批和 Agent 执行记录等 RESTful API，基于 PostgreSQL 存储业务数据、会话记录、审批记录、工具调用日志和向量数据。
 * 实现客服售后工作流，基于 mock 订单、物流和工单数据模拟业务工具调用，并对高金额退款、已签收退款等高风险场景生成pending approval，避免 Agent 直接执行敏感动作。
