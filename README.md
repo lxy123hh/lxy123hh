@@ -30,6 +30,7 @@
 
 ### 3. AgentFlow：企业知识库与客服工单工作流 Agent 平台
 **技术栈**：**React**, **TypeScript**, **FastAPI**, **LangGraph**, **LangChain**, **LangSmith**, **PostgreSQL**, **pgvector**, **Docker**
+
 **职责**:设计并实现面向企业知识检索与客服售后场景的 AI Agent 本地 MVP，支持文档上传、知识库问答、订单/物流查询、客服处理建议生成、工单管理与人工审批。
 * 基于 LangGraph 构建多分支 Agent 工作流，将用户请求路由至知识库问答、客服售后处理、缺订单号和普通问答分支，并通过状态管理串联检索、工具调用、业务规则判断和最终回答生成。
 * 构建 RAG 知识库模块，支持 PDF / Markdown / TXT 文档解析、文本切分、Embedding 向量化、pgvector 相似度检索，并在回答中返回引用来源和片段信息。
@@ -42,6 +43,7 @@
 
 ### 4. 鹰速体育系统
 **技术栈**：**Vue3**, **TypeScript**, **Vite**, **Element Plus**, **TailwindCSS**, **uni-app**,**unibest**,**Spring Boot**,**MyBatis-Plus**, **MySQL**, **Redis**, **Sa-Token**, **Docker**, **Prometheus**, **Grafana**
+
 **职责**:面向体育俱乐部会员运营场景，参与建设后台管理端、微信小程序端与后端服务，支持会员管理、体测成绩、积分商城、会员卡管理、活动报名、数据统计和系统监控告警。
 * 独立负责后台管理系统的原型设计与前端开发，完成登录鉴权、会员管理、体测管理、积分商城、会员卡管理、活动课程管理和数据看板等核心模块。
 * 基于 Vue3 + TypeScript + Vite + Element Plus 搭建管理端前端工程，封装 Axios 请求、Token 注入、401 登录失效处理、路由守卫和页面级接口联调逻辑。
