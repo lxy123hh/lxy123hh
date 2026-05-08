@@ -42,7 +42,7 @@
 * 使用 Docker Compose 编排 PostgreSQL、后端和前端服务，并编写 README、架构说明、Agent 工作流图和本地启动文档，提升项目可复现性。
 
 ### 4. 鹰速体育系统
-**技术栈**：**Vue3**, **TypeScript**, **Vite**, **Element Plus**, **TailwindCSS**, **uni-app**, **Spring Boot**,**MyBatis-Plus**, **MySQL**, **Redis**, **Sa-Token**, **Docker**, **Prometheus**, **Grafana**
+**技术栈**：**Vue3**, **TypeScript**, **Vite**, **Element Plus**, **TailwindCSS**, **uni-app**,**unibest**,**Spring Boot**,**MyBatis-Plus**, **MySQL**, **Redis**, **Sa-Token**, **Docker**, **Prometheus**, **Grafana**
 
 * 面向体育俱乐部会员运营场景，参与建设后台管理端、微信小程序端与后端服务，支持会员管理、体测成绩、积分商城、会员卡管理、活动报名、数据统计和系统监控告警。
 * 独立负责后台管理系统的原型设计与前端开发，完成登录鉴权、会员管理、体测管理、积分商城、会员卡管理、活动课程管理和数据看板等核心模块。
